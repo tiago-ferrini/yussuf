@@ -8,8 +8,9 @@ import { AirtableService } from './services/airtable.service';
 })
 export class AppComponent {
   title = 'yussuf';
+  records: any[] = [];
   constructor(private readonly airtableService: AirtableService) {
     console.log();
-    this.airtableService.getProducts().then((res: any) => console.log(res));
+    this.airtableService.getProducts().then((res: any) => (this.records = res));
   }
 }
