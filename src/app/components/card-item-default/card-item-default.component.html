@@ -1,9 +1,4 @@
 <mat-card class="mat-elevation-z8">
-  <!-- <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>Shiba Inu</mat-card-title>
-    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-  </mat-card-header> -->
   <div
     class="image-container"
     [ngStyle]="{ 'background-image': 'url(' + record?.Images[0]?.url + ')' }"
@@ -21,8 +16,4 @@
       {{ record["In Stock"] }}
     </h3>
   </mat-card-content>
-  <!-- <mat-card-actions>
-    <button mat-button>LIKE</button>
-    <button mat-button>SHARE</button>
-  </mat-card-actions> -->
 </mat-card>
