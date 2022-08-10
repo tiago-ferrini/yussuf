@@ -20,6 +20,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { ListItemDefaultComponent } from './components/list-item/list-item-default/list-item-default.component';
 import { AuthComponent } from './components/auth/auth.component';
 import { LoginComponent } from './components/auth/login/login.component';
+import { CardsListSmallComponent } from './components/list/small/cards-list-small/cards-list-small.component';
+import { CardItemSmallComponent } from './components/list/small/card-item-small/card-item-small.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { LoginComponent } from './components/auth/login/login.component';
     ListItemDefaultComponent,
     AuthComponent,
     LoginComponent,
+    CardsListSmallComponent,
+    CardItemSmallComponent,
   ],
   imports: [
     BrowserModule,
