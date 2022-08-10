@@ -15,7 +15,11 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+
 import { ListItemDefaultComponent } from './components/list-item/list-item-default/list-item-default.component';
+import { AuthComponent } from './components/auth/auth.component';
+import { LoginComponent } from './components/auth/login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +27,8 @@ import { ListItemDefaultComponent } from './components/list-item/list-item-defau
     CardsListDefaultComponent,
     CardItemDefaultComponent,
     ListItemDefaultComponent,
+    AuthComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,6 +42,7 @@ import { ListItemDefaultComponent } from './components/list-item/list-item-defau
     MatFormFieldModule,
     MatIconModule,
     MatSelectModule,
+    MatCheckboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
