@@ -10,7 +10,9 @@ export class AppComponent {
   title = 'yussuf';
   records: any[] = [];
   constructor(private readonly airtableService: AirtableService) {
-    console.log();
     this.airtableService.getProducts().then((res: any) => (this.records = res));
+    setTimeout(() => {
+      console.log(this.records);
+    }, 1000);
   }
 }

@@ -25,6 +25,9 @@ import { CardsListSmallComponent } from './components/list/small/cards-list-smal
 import { CardItemSmallComponent } from './components/list/small/card-item-small/card-item-small.component';
 import { CardItemColumnarComponent } from './components/list/columnar/card-item-columnar/card-item-columnar.component';
 import { CardsListColumnarComponent } from './components/list/columnar/cards-list-columnar/cards-list-columnar.component';
+import { WrapperInboxComponent } from './components/list/inbox/wrapper-inbox/wrapper-inbox.component';
+import { ItemsListInboxComponent } from './components/list/inbox/items-list-inbox/items-list-inbox.component';
+import { ItemDetailInboxComponent } from './components/list/inbox/item-detail-inbox/item-detail-inbox.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,9 @@ import { CardsListColumnarComponent } from './components/list/columnar/cards-lis
     CardItemSmallComponent,
     CardItemColumnarComponent,
     CardsListColumnarComponent,
+    WrapperInboxComponent,
+    ItemsListInboxComponent,
+    ItemDetailInboxComponent,
   ],
   imports: [
     BrowserModule,

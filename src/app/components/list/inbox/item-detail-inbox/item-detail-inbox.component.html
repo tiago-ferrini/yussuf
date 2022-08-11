@@ -1,0 +1,18 @@
+<div class="main-container">
+  <div class="details-container" *ngIf="record">
+    <div class="image-container">
+      <img [src]="record?.fields.Images[0]?.url" alt="" />
+      <h2 class="title">
+        {{ record.fields["Product Name"] }}
+      </h2>
+      <p class="tags-container">
+        <button mat-stroked-button class="m-r-5">tag1</button>
+        <button mat-stroked-button class="m-l-5 m-r-5">tag2</button>
+      </p>
+      <p>
+        {{ record.fields["Product Description"] }}
+      </p>
+    </div>
+  </div>
+  <p *ngIf="!record">Choose one of the items</p>
+</div>

@@ -1,0 +1,193 @@
+{
+  "_table": {
+    "_base": {
+      "_airtable": {},
+      "_id": "appPh2RYtKJSuP02N"
+    },
+    "id": null,
+    "name": "Product Inventory"
+  },
+  "id": "recPC99gA6kyNa0F1",
+  "_rawJson": {
+    "id": "recPC99gA6kyNa0F1",
+    "createdTime": "2017-02-28T23:47:34.000Z",
+    "fields": {
+      "manufacturer_product_junction": [
+        "receJr6DGdZ96OCHl",
+        "recR7567jpU1hsrcL",
+        "rec6ua6T75rBqIYzJ",
+        "recuB3whQZEveiP7v",
+        "rec6J5jJRAkUro4Mz",
+        "recFOkAvTHcw3XyUH"
+      ],
+      "Manufacturer Price": 40,
+      "Units Sold": 21,
+      "In Stock": "Yes",
+      "Product Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+      "Colors": ["Black"],
+      "Purchase Orders": ["recRqtIJxeSv25L0u", "recg9HdVOv9LizTI9"],
+      "Barcode": {
+        "type": "ean13",
+        "text": "0096619474318"
+      },
+      "Price": 250,
+      "Type": "Smartphone",
+      "Images": [
+        {
+          "id": "attGBXvbRanWeVDrX",
+          "width": 640,
+          "height": 358,
+          "url": "https://dl.airtable.com/.attachments/a87e56a185c3be13445b48eca128013a/22b455a5/daniel-romero-Z9fW8Nn7D24-unsplash.jpg?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=5926bea81f074f31",
+          "filename": "daniel-romero-Z9fW8Nn7D24-unsplash.jpg",
+          "size": 25244,
+          "type": "image/jpeg",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/8ded78cfcd81cee5a6978a02f7d34b2c/4b885042?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=c70987582203e387",
+              "width": 64,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/ffc3aaa88bf3f2d6c419e4272d49ddf2/7228404d?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=a1e4a031f8cdf4ce",
+              "width": 640,
+              "height": 358
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/0845a0573856985d52947321f3a9ece1/fde9ebd8?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=e9d15cddcc1b01c5",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Product ID": 2,
+      "Product Name": "Google Pixel Phone",
+      "Manufacturer": ["recMSCzzPRmMQpaq0"],
+      "Units Ordered": 89,
+      "Manufacturer Name (Lookup)": ["Google"],
+      "Address (from Manufacturer)": ["593 Hollywood Street, 86648"],
+      "Phone Number (from Manufacturer)": ["(123) 456-7890"],
+      "Email (from Manufacturer)": ["lisa@email.com"],
+      "Location (from Manufacturer)": ["Mountain View"],
+      "Contact Name (from Manufacturer)": ["Lisa Barns"],
+      "Image (from Manufacturer)": [
+        {
+          "id": "attrdLpbR1n5v2Ug8",
+          "width": 640,
+          "height": 427,
+          "url": "https://dl.airtable.com/.attachments/d7a9328af8550bd9a0f8b0d03e1263c3/8b065ca7/christian-wiediger-zhZydTyNMPg-unsplash.jpg?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=add0c85a7b75681c",
+          "filename": "christian-wiediger-zhZydTyNMPg-unsplash.jpg",
+          "size": 10237,
+          "type": "image/jpeg",
+          "thumbnails": {
+            "small": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/85cc86c30c9ca19cd151fd9e3edc2064/abe5cb54?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=fb1cd3ac0c91e856",
+              "width": 54,
+              "height": 36
+            },
+            "large": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/3bb0505a5b73ab15dd444ed6a5e8bcc9/efb75d11?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=394dc9e668531c51",
+              "width": 640,
+              "height": 427
+            },
+            "full": {
+              "url": "https://dl.airtable.com/.attachmentThumbnails/6b54dc49d09dcfbade34d7cfe8052d6f/63fa3379?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=dd2e3c5bffa6aceb",
+              "width": 3000,
+              "height": 3000
+            }
+          }
+        }
+      ],
+      "Name (from Manufacturer)": ["Google"]
+    }
+  },
+  "fields": {
+    "manufacturer_product_junction": [
+      "receJr6DGdZ96OCHl",
+      "recR7567jpU1hsrcL",
+      "rec6ua6T75rBqIYzJ",
+      "recuB3whQZEveiP7v",
+      "rec6J5jJRAkUro4Mz",
+      "recFOkAvTHcw3XyUH"
+    ],
+    "Manufacturer Price": 40,
+    "Units Sold": 21,
+    "In Stock": "Yes",
+    "Product Description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+    "Colors": ["Black"],
+    "Purchase Orders": ["recRqtIJxeSv25L0u", "recg9HdVOv9LizTI9"],
+    "Barcode": {
+      "type": "ean13",
+      "text": "0096619474318"
+    },
+    "Price": 250,
+    "Type": "Smartphone",
+    "Images": [
+      {
+        "id": "attGBXvbRanWeVDrX",
+        "width": 640,
+        "height": 358,
+        "url": "https://dl.airtable.com/.attachments/a87e56a185c3be13445b48eca128013a/22b455a5/daniel-romero-Z9fW8Nn7D24-unsplash.jpg?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=5926bea81f074f31",
+        "filename": "daniel-romero-Z9fW8Nn7D24-unsplash.jpg",
+        "size": 25244,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/8ded78cfcd81cee5a6978a02f7d34b2c/4b885042?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=c70987582203e387",
+            "width": 64,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ffc3aaa88bf3f2d6c419e4272d49ddf2/7228404d?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=a1e4a031f8cdf4ce",
+            "width": 640,
+            "height": 358
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/0845a0573856985d52947321f3a9ece1/fde9ebd8?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=e9d15cddcc1b01c5",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "Product ID": 2,
+    "Product Name": "Google Pixel Phone",
+    "Manufacturer": ["recMSCzzPRmMQpaq0"],
+    "Units Ordered": 89,
+    "Manufacturer Name (Lookup)": ["Google"],
+    "Address (from Manufacturer)": ["593 Hollywood Street, 86648"],
+    "Phone Number (from Manufacturer)": ["(123) 456-7890"],
+    "Email (from Manufacturer)": ["lisa@email.com"],
+    "Location (from Manufacturer)": ["Mountain View"],
+    "Contact Name (from Manufacturer)": ["Lisa Barns"],
+    "Image (from Manufacturer)": [
+      {
+        "id": "attrdLpbR1n5v2Ug8",
+        "width": 640,
+        "height": 427,
+        "url": "https://dl.airtable.com/.attachments/d7a9328af8550bd9a0f8b0d03e1263c3/8b065ca7/christian-wiediger-zhZydTyNMPg-unsplash.jpg?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=add0c85a7b75681c",
+        "filename": "christian-wiediger-zhZydTyNMPg-unsplash.jpg",
+        "size": 10237,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/85cc86c30c9ca19cd151fd9e3edc2064/abe5cb54?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=fb1cd3ac0c91e856",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3bb0505a5b73ab15dd444ed6a5e8bcc9/efb75d11?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=394dc9e668531c51",
+            "width": 640,
+            "height": 427
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6b54dc49d09dcfbade34d7cfe8052d6f/63fa3379?ts=1660210145&userId=usrh4RbgvFcWUlOlH&cs=dd2e3c5bffa6aceb",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "Name (from Manufacturer)": ["Google"]
+  }
+}
