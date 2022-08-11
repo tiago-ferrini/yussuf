@@ -16,12 +16,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatDividerModule } from '@angular/material/divider';
 
 import { ListItemDefaultComponent } from './components/list-item/list-item-default/list-item-default.component';
 import { AuthComponent } from './components/auth/auth.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { CardsListSmallComponent } from './components/list/small/cards-list-small/cards-list-small.component';
 import { CardItemSmallComponent } from './components/list/small/card-item-small/card-item-small.component';
+import { CardItemColumnarComponent } from './components/list/columnar/card-item-columnar/card-item-columnar.component';
+import { CardsListColumnarComponent } from './components/list/columnar/cards-list-columnar/cards-list-columnar.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,8 @@ import { CardItemSmallComponent } from './components/list/small/card-item-small/
     LoginComponent,
     CardsListSmallComponent,
     CardItemSmallComponent,
+    CardItemColumnarComponent,
+    CardsListColumnarComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,6 +52,7 @@ import { CardItemSmallComponent } from './components/list/small/card-item-small/
     MatIconModule,
     MatSelectModule,
     MatCheckboxModule,
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
