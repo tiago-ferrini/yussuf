@@ -1,13 +1,13 @@
 <div class="main-container p-l-10 p-r-10 p-t-10 p-b-10">
   <div class="container">
     <div class="row">
-      <div class="col-4 items-list-container m-t-10 m-b-10 p-t-10 p-b-10">
+      <div class="col-sm-4 items-list-container m-t-10 m-b-10 p-t-10 p-b-10">
         <app-items-list-inbox
           [records]="records"
           (itemChoosed)="itemOnChoose($event)"
         ></app-items-list-inbox>
       </div>
-      <div class="col-8 m-t-10 m-b-10 p-t-10 p-b-10">
+      <div class="col-8 m-t-10 m-b-10 p-t-10 p-b-10 d-none d-sm-block">
         <app-item-detail-inbox [record]="choosedRecord"></app-item-detail-inbox>
       </div>
     </div>
